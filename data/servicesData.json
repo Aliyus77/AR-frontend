@@ -1,22 +1,22 @@
 [
   {
     "title": "Desarrollo web Frontend",
-    "imageSrc": "./img/frontend01.webp",
+    "imageSrc": "https://i.imgur.com/HIC9o4D.png",
     "description": "Creación y diseño de la interfaz de usuario de un sitio web. Incluye la implementación de elementos visuales, como diseño, colores y tipografías, así como la funcionalidad que los usuarios experimentan directamente en su navegador."
   },
   {
     "title": "Diseño Responsive",
-    "imageSrc": "./img/responsive01.jpg",
+    "imageSrc": "https://i.imgur.com/8lh4TvB.jpg",
     "description": "Este enfoque de diseño asegura que un sitio web se vea y funcione de manera óptima en diferentes dispositivos y tamaños de pantalla. Esto mejora la experiencia del usuario y es crucial para la optimización en motores de búsqueda."
   },
   {
     "title": "Landig Pages",
-    "imageSrc": "./img/landing01.jpg",
+    "imageSrc": "https://i.imgur.com/vJkGXLI.jpg",
     "description": "Páginas web diseñadas específicamente para una campaña o acción particular, con el objetivo de convertir visitantes en clientes potenciales o clientes reales."
   },
   {
     "title": "e-commerce",
-    "imageSrc": "./img/ecommerce01.png",
+    "imageSrc": "https://i.imgur.com/1jdB1zC.png",
     "description": "Creación y desarrollo de tiendas en línea. Esto implica la implementación de sistemas de carrito de compras, pasarelas de pago y la presentación efectiva de productos para facilitar la experiencia de compra en línea."
   }  
 ]
