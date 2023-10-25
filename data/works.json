@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Blog De Café",
+    "description": "El Blog De Café es una landing page que se desarrolló utilizando HTML y CSS. Cuenta con navegación, mediante el menú, hacia páginas Nosotros, Cursos y Contacto. Es un diseño sobrio y con una agradable paleta de colores que se puede adaptar a tus necesidades y requerimientos.",
+    "imageSrc": "https://i.imgur.com/izBRAEp.png",
+    "link": "https://blogcafealiyus.netlify.app/"
+  },
+  {
+    "title": "Tareas Pendientes",
+    "description": "Tareas Pendientes es una app que podés utilizar para hacer un listado de compras, enumerar el orden en que desarmaste la compu para limpiarla y asi poder rearmarla sin inconvenientes y mucho más. Ya no te vas a olvidar nada en el Super con esta App.",
+    "imageSrc": "https://i.imgur.com/foo7qnK.png",
+    "link": "https://aliyus77.github.io/TareasPendientes/"
+  },
+  {
+    "title": "Shoping",
+    "description": "Shoping, es un e-comerce realizado en ReactJS, para la practica de la composición de componentes, los usos del estado y más. Levanta la info desde una API, posee una barra de busqueda y la interacción con el carrito de compras que nos va a llevar hasta el apartado de Checkout.",
+    "imageSrc": "https://i.imgur.com/Vmb9uMs.png",
+    "link": "https://react-course-shopping.netlify.app/"
+  },
+  {
+    "title": "Aliyus",
+    "description": "Aliyus, es mi primera pagina web creada luego de tomar mis primeros cursos de programación actuales, esta desarrollada con HTML y CSS externo. Es un diseño agradable con colores llamativos que podrían adaptarse a casi cualquier tipo de landing-page.",
+    "imageSrc": "https://i.imgur.com/BdNLTs0.png",
+    "link": "https://aliyus.netlify.app/"
+  }
+]

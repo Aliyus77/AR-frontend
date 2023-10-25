@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Curso Básico de JavaScript",
+    "imageSrc": "https://i.imgur.com/Nh6KSAD.png",
+    "description": "El Curso Básico de JavaScript cubrió los siguientes aspectos esenciales: Sintaxis y Variables: Fundamentos de la estructura y declaración de variables. Funciones: Cómo definir y utilizar funciones. Estructuras de Datos: Trabajo con arrays y objetos. Manipulación del DOM: Interacción con la estructura de una página web. Eventos: Manejo de acciones del usuario. Programación Asíncrona: Introducción a Promesas y Async/Await. Manejo de Errores: Tratamiento de excepciones. Introducción a ES6 y Módulos: Conceptos modernos de JavaScript. Introducción a AJAX y Fetch API: Comunicación con servidores. Introducción a JSON: Trabajo con el formato de datos JSON. Estos conceptos básicos proporcionan una sólida base para desarrollar aplicaciones web interactivas y dinámicas en JavaScript."
+  },
+  {
+    "title": "Curso Básico de JavaScript (Práctico)",
+    "imageSrc": "https://i.imgur.com/BMYP9pG.png",
+    "description": ""
+  },
+  {
+    "title": "Curso de Manipulación del DOM",
+    "imageSrc": "https://i.imgur.com/tLGpPYP.png",
+    "description": "En el Curso de Manipulación del DOM se cubrieron los siguientes puntos clave: Selección de Elementos: Cómo identificar y seleccionar elementos en una página web. Manipulación de Contenido: Cómo cambiar el contenido de un elemento. Modificación de Atributos: Cómo agregar, modificar y eliminar atributos de elementos. Estilos CSS: Cómo modificar los estilos y clases de un elemento. Creación de Elementos: Cómo crear nuevos elementos y agregarlos al DOM. Eventos: Cómo agregar y gestionar eventos de usuario. Animaciones y Transiciones: Introducción a las animaciones y transiciones CSS. Navegación y Manipulación de la Estructura: Cómo añadir, mover o eliminar elementos. Manipulación de Formularios: Cómo interactuar con formularios y sus elementos. Estos conocimientos proporcionan las habilidades necesarias para modificar y controlar la estructura y contenido de una página web en tiempo real, lo cual es esencial para crear experiencias interactivas y dinámicas en el navegador."
+  },
+  {
+    "title": "Frameworks y Librerías de JavaScript",
+    "imageSrc": "https://i.imgur.com/6uNEgNM.png",
+    "description": "El estudio de frameworks y librerías de JavaScript es esencial para el desarrollo web moderno. Los frameworks y librerías son herramientas poderosas que permiten a los desarrolladores crear aplicaciones web más eficientes, escalables y atractivas. La elección de cuál utilizar depende del proyecto y de las necesidades específicas del mismo."
+  },
+  {
+    "title": "Frontend Developer",
+    "imageSrc": "https://i.imgur.com/c7qGpe9.png",
+    "description": "Un Frontend Developer, o Desarrollador Frontend, es un profesional especializado en la creación y desarrollo de la interfaz de usuario y la experiencia del usuario en aplicaciones y sitios web. Un Frontend Developer juega un papel crucial en la creación de interfaces de usuario atractivas y funcionales, asegurando una experiencia positiva para los usuarios finales."
+  },
+  {
+    "title": "Frontend Developer (Práctico)",
+    "imageSrc": "https://i.imgur.com/p4Se7aB.png",
+    "description": ""
+  },
+  {
+    "title": "React Hooks",
+    "imageSrc": "https://i.imgur.com/qcFvU5H.png",
+    "description": "En un curso de React Hooks se adquieren los siguientes conocimientos: useState: Gestión de estado en componentes funcionales. useEffect: Manejo de efectos secundarios en componentes funcionales. useContext: Acceso a contexto en componentes funcionales. useReducer: Gestión de estados complejos de manera estructurada. Custom Hooks: Creación de Hooks personalizados para reutilizar lógica. Optimización de Rendimiento: Estrategias para evitar renders innecesarios. Testing con Hooks: Métodos para probar componentes con Hooks. Proyectos Prácticos: Aplicación de conceptos en proyectos reales. Buenas Prácticas: Pautas para escribir código limpio y eficiente."
+  },
+  {
+    "title": "ReactJS: Patrones de Render y Composición",
+    "imageSrc": "https://i.imgur.com/x7Coqjn.png",
+    "description": "En ReactJS, los patrones de render y composición son fundamentales para construir aplicaciones eficientes y mantenibles. Aquí hay un resumen de estos conceptos: Patrón de Render: En React, el render es la función que determina qué elementos se deben mostrar en la interfaz de usuario en función del estado y las props actuales. Un componente React debe implementar la función render(), que devuelve una descripción de lo que se verá en la pantalla. El render es una función pura y debe ser determinista (es decir, producirá siempre el mismo resultado para los mismos inputs). Patrón de Composición: React promueve la composición sobre la herencia. Esto significa que se fomenta el uso de componentes pequeños y reutilizables que se combinan para construir interfaces más complejas. Los componentes pueden ser nidados, lo que permite crear jerarquías de componentes que representen distintos niveles de abstracción.Componentes Funcionales vs Clase: Los componentes funcionales son funciones de JavaScript que toman props como argumentos y devuelven elementos React. Los componentes de clase son clases de JavaScript que extienden React.Component y tienen un método render(). Render Props: Un patrón de diseño que se basa en pasar una función como prop a un componente, permitiendo una mayor flexibilidad y reutilización de lógica. HOC (Higher Order Component): Un patrón de diseño que consiste en una función que toma un componente y retorna un nuevo componente con funcionalidades adicionales. Container vs Presentational Components: El patrón de contenedor/presentacional separa los componentes en dos categorías: contenedores que manejan la lógica y presentacionales que se encargan de la representación visual. Hooks como Patrón de Composición: Los Hooks permiten a los componentes funcionales tener estado y ciclo de vida, lo que fomenta la composición de lógica dentro de componentes más pequeños. Context API: La Context API de React permite pasar datos a través del árbol de componentes sin tener que pasar props manualmente en cada nivel. Estos patrones son esenciales para construir aplicaciones React escalables, mantenibles y eficientes. Combinar la composición y el render de manera efectiva es clave para diseñar interfaces de usuario dinámicas y reutilizables."
+  },
+  {
+    "title": "ReactJS: Navegación con React Router",
+    "imageSrc": "https://i.imgur.com/4YWwZE2.png",
+    "description": ""
+  },
+  {
+    "title": "ReactJS con ViteJS y TailwindCSS",
+    "imageSrc": "https://i.imgur.com/ti1M3NG.png",
+    "description": ""
+  },
+  {
+    "title": "Curso Profesional de Git y GitHub",
+    "imageSrc": "https://i.imgur.com/KPUIm4F.png",
+    "description": ""
+  },
+  {
+    "title": "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
+    "imageSrc": "https://i.imgur.com/TwvDkg7.png",
+    "description": ""
+  }
+]
