@@ -35,12 +35,12 @@ const Header = () => {
   return (
     <div>      
       <nav className='flex justify-between bg-slate-400 dark:bg-slate-600 bg-opacity-75 dark:bg-opacity-80 backdrop:blur-md dark:backdrop:blur-lg p-4 fixed w-full top-0 z-50'>
-        <div className='cursor-pointer' >
+        <div className='cursor-pointer align-middle' >
           <FaMoon id='moon' onClick={handleChangeTheme} />
           <FaRegSun id='sun' onClick={handleChangeTheme} />
         </div>
         <div className='' >
-          <ul className='flex flex-row gap-6 cursor-pointer font-bold'>
+          <ul className='flex flex-row gap-2 sm:gap-6 cursor-pointer font-bold'>
             <li><a href='#about'>Acerca de mi</a></li>
             <li><a href='#service'>Servicios</a></li>
             <li><a href='#works'>Trabajos</a></li>
