@@ -3,8 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <section id='about' className='pt-20'>
-          <h2 className='text-xl font-semibold text-center pb-4 dark:text-slate-300' >Acerca de mi</h2>
-        <div className='sm:text-end text-justify sm:flex'>
+      <h2 className='text-xl font-semibold text-center pb-4 dark:text-slate-300' >Acerca de mi</h2>
+        <div className='sm:text-end text-justify sm:flex '>
           <div className=' pb-2 sm:w-3/5 ml-6 sm:ml-40 mr-5 dark:text-slate-300'>
             <h3 className='text-lg text-center sm:text-end mb-1 font-semibold' >Bienvenido a mi pagina personal</h3>
             <p>Me llamo Angel, nací y vivo en en Campana. Me gustan los animales (tengo 5 perros y 3 gatos, sí!) y compartir bellos momentos con mi familia.</p>

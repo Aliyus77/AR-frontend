@@ -2,21 +2,21 @@
   {
     "title": "Desarrollo web Frontend",
     "imageSrc": "https://i.imgur.com/HIC9o4D.png",
-    "description": "Creación y diseño de la interfaz de usuario de un sitio web. Incluye la implementación de elementos visuales, como diseño, colores y tipografías, así como la funcionalidad que los usuarios experimentan directamente en su navegador."
+    "description": "Creación y diseño de la interfaz de usuario y la experiencia de usuario de un sitio web o aplicación. Implica trabajar con lenguajes como HTML, CSS y JavaScript para construir la parte visual y funcional que los usuarios interactúan directamente. El desarrollo frontend es fundamental para crear una experiencia de usuario atractiva y funcional en la web. Como desarrollador frontend me mantengo actualizado con las últimas tendencias y tecnologías para ofrecer soluciones modernas y efectivas."
   },
   {
     "title": "Diseño Responsive",
     "imageSrc": "https://i.imgur.com/8lh4TvB.jpg",
-    "description": "Este enfoque de diseño asegura que un sitio web se vea y funcione de manera óptima en diferentes dispositivos y tamaños de pantalla. Esto mejora la experiencia del usuario y es crucial para la optimización en motores de búsqueda."
+    "description": "El diseño responsive (o diseño adaptable) es una técnica de desarrollo web que asegura que un sitio web se vea y funcione correctamente en una amplia gama de dispositivos y tamaños de pantalla. Esto incluye computadoras de escritorio, laptops, tablets y teléfonos móviles. El diseño responsive es esencial en el desarrollo web moderno, ya que asegura una experiencia de usuario consistente y satisfactoria en todos los dispositivos. Al implementar estas prácticas, puedes crear sitios web que se adapten de manera efectiva a diferentes pantallas y dispositivos."
   },
   {
     "title": "Landig Pages",
     "imageSrc": "https://i.imgur.com/vJkGXLI.jpg",
-    "description": "Páginas web diseñadas específicamente para una campaña o acción particular, con el objetivo de convertir visitantes en clientes potenciales o clientes reales."
+    "description": "Las landing pages son una herramienta esencial en marketing digital y publicidad en línea, ya que permiten una mayor segmentación y personalización de mensajes para audiencias específicas. Diseñada específicamente para recibir a los visitantes que llegan a través de un enlace o anuncio. Su objetivo principal es convertir a esos visitantes en clientes potenciales o llevar a cabo una acción específica, como registrarse en un formulario, descargar un recurso, realizar una compra, etc. También son utilizadas en campañas de email marketing y anuncios pagados para maximizar la conversión de tráfico."
   },
   {
     "title": "e-commerce",
     "imageSrc": "https://i.imgur.com/1jdB1zC.png",
-    "description": "Creación y desarrollo de tiendas en línea. Esto implica la implementación de sistemas de carrito de compras, pasarelas de pago y la presentación efectiva de productos para facilitar la experiencia de compra en línea."
+    "description": "El comercio electrónico, e-comerce, se refiere a la compra y venta de productos o servicios a través de internet. Es un modelo de negocio que ha crecido significativamente en las últimas décadas y ha revolucionado la forma en que las personas compran y venden productos en todo el mundo. El comercio electrónico ofrece una amplia gama de oportunidades para vendedores y compradores, permitiendo transacciones convenientes y accesibles en línea. Desde pequeñas tiendas independientes hasta grandes empresas, el comercio electrónico ha cambiado la forma en que interactuamos con el mundo de las compras."
   }  
 ]
