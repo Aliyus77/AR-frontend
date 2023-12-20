@@ -128,7 +128,7 @@ const Header = () => {
       <div
     id='menu-backdrop'
     class={`
-      absolute bg-black/30 dark:bg-black backdrop-blur-lg rounded
+      absolute bg-black/40 dark:bg-black backdrop-blur-lg rounded
       translate-x-[var(--left)] translate-y-[var(--top)]
       left-0 top-0
       w-[var(--width)] h-7
