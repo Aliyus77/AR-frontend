@@ -9,7 +9,7 @@ const menuBackDrop = document.querySelector('#menu-backdrop')
 listItem.forEach((item) => {
   item.addEventListener('mouseenter', () => {
     const { left, top, width, height } = item.getBoundingClientRect()
-    // const { clientHeight, clientWidth } = item
+
     menuBackDrop.style.setProperty('--left', `${left}px`)
     menuBackDrop.style.setProperty('--top', `${top}px`)
     menuBackDrop.style.setProperty('--width', `${width}px`)
@@ -128,10 +128,10 @@ const Header = () => {
       <div
     id='menu-backdrop'
     class={`
-      absolute bg-slate-400/100 backdrop-blur-lg rounded
+      absolute bg-black/30 dark:bg-black backdrop-blur-lg rounded
       translate-x-[var(--left)] translate-y-[var(--top)]
       left-0 top-0
-      w-[var(--width)] h-[var(--height)]
+      w-[var(--width)] h-7
       transition-all duration-00
       ease-in-out opacity-0 -z-10
     `}
