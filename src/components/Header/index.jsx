@@ -128,12 +128,12 @@ const Header = () => {
       <div
     id='menu-backdrop'
     class={`
-      absolute bg-black/40 dark:bg-black backdrop-blur-lg rounded
+      absolute bg-black/50 dark:bg-slate-200/50 backdrop-blur-lg rounded
       translate-x-[var(--left)] translate-y-[var(--top)]
       left-0 top-0
       w-[var(--width)] h-7
       transition-all duration-00
-      ease-in-out opacity-0 -z-10
+      ease-in-out opacity-0 
     `}
   >
   </div>
