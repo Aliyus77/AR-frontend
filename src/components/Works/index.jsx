@@ -12,7 +12,7 @@ const Works = () => {
           <div key={index} className='flex flex-col justify-between'>
           <div className='flex flex-col h-full pb-8 gap-3 dark:text-slate-300'>
             <img
-              className='w-52 h-48 m-auto'
+              className='w-60 h-48 m-auto'
               src={work.imageSrc}
               alt={work.title}
             />
@@ -23,7 +23,7 @@ const Works = () => {
           </div>
           <button className=' w-20 mx-auto mb-4'>
             <a
-              className='bg-slate-400 dark:bg-slate-600 hover:bg-slate-600 dark:text-white font-semibold dark:hover:bg-slate-700 text-white rounded block text-center py-2 '
+              className='bg-slate-400 dark:bg-slate-600 hover:bg-slate-600 dark:text-white font-semibold dark:hover:bg-slate-700 transition-colors duration-500 text-white rounded block text-center py-2 '
               href={work.link}
               target='_blank'
               rel='noopener noreferrer'

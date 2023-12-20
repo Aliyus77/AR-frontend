@@ -3,6 +3,25 @@ import React from 'react'
 import { FaMoon, FaBars, FaX } from "react-icons/fa6";
 import { HiOutlineSun } from "react-icons/hi2";
 
+const listItem = document.querySelectorAll('#landing-header li')
+const menuBackDrop = document.querySelector('#menu-backdrop')
+
+listItem.forEach((item) => {
+  item.addEventListener('mouseenter', () => {
+    const { left, top, width, height } = item.getBoundingClientRect()
+    // const { clientHeight, clientWidth } = item
+    menuBackDrop.style.setProperty('--left', `${left}px`)
+    menuBackDrop.style.setProperty('--top', `${top}px`)
+    menuBackDrop.style.setProperty('--width', `${width}px`)
+    menuBackDrop.style.setProperty('--height', `${height}px`)
+    menuBackDrop.style.opacity = '1'
+    menuBackDrop.style.visibility = 'visible'
+  })
+  item.addEventListener('mouseleave', () => {
+    menuBackDrop.style.opacity = '0'
+    menuBackDrop.style.visibility = 'hidden'
+  })
+})
 
 const Header = () => {
   const [theme, setTheme] = useState('light')
@@ -58,7 +77,7 @@ const Header = () => {
   })
 
   return (
-    <div> 
+    <header id='landing-header' class='fixed'> 
       <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm z-40`}>
       </div>     
       <nav className='flex justify-between bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 z-50'>
@@ -106,8 +125,21 @@ const Header = () => {
             </ul>            
           </div>
       </nav>
-    </div>
+      <div
+    id='menu-backdrop'
+    class={`
+      absolute bg-slate-400/100 backdrop-blur-lg rounded
+      translate-x-[var(--left)] translate-y-[var(--top)]
+      left-0 top-0
+      w-[var(--width)] h-[var(--height)]
+      transition-all duration-00
+      ease-in-out opacity-0 -z-10
+    `}
+  >
+  </div>
+    </header>    
   )
+
 }
 
 export default Header

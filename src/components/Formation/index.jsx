@@ -10,7 +10,7 @@ const Formation = () => {
       <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8 '>
         {formationData.map((formation, index) => (
           <div key={index} className='flex flex-col justify-between'>
-            <div className='dark:text-slate-300 flex flex-col h-auto pb-8 gap-3 transition-transform transform hover:scale-150'>
+            <div className='dark:text-slate-300 flex flex-col h-auto pb-8 gap-3 transition-transform transform hover:scale-150 duration-500'>
               <img
                 className='w-2/3 h-full m-auto'
                 src={formation.imageSrc}

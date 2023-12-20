@@ -22,5 +22,11 @@
     "description": "Aliyus, es mi primera pagina web creada luego de tomar mis primeros cursos de programación actuales, esta desarrollada con HTML y CSS externo. Es un diseño agradable con colores llamativos que podrían adaptarse a casi cualquier tipo de landing-page.",
     "imageSrc": "https://i.imgur.com/BdNLTs0.png",
     "link": "https://aliyus.netlify.app/"
+  },
+  {
+    "title": "Tesla Landing",
+    "description": "Proyecto con HTML, CSS, JavaScrip, ASTRO y Tailwind; realizando una copia de la landing de Tesla",
+    "imageSrc": "https://i.imgur.com/vXmtzQ7.png",
+    "link": "https://tesla-landing-aliyus.netlify.app/"
   }
 ]
