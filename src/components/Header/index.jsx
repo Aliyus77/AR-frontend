@@ -77,7 +77,7 @@ const Header = () => {
   })
 
   return (
-    <header id='landing-header' class='fixed'> 
+    <header id='landing-header' class='fixed z-10'> 
       <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm z-40`}>
       </div>     
       <nav className='flex justify-between bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 z-50'>
