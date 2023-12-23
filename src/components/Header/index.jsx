@@ -77,35 +77,27 @@ const Header = () => {
   })
 
   return (
-    <header id='landing-header' class='fixed z-10'> 
+    <header id='landing-header' className='fixed z-10'> 
       <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm z-40`}>
       </div>     
-      <nav className='flex justify-between bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 z-50'>
+      
         <div className='text-xl ml-4 flex gap-8 ' >
-          <FaMoon className='cursor-pointer' id='moon' onClick={handleChangeTheme} />
-          <HiOutlineSun className='cursor-pointer' id='sun' onClick={handleChangeTheme} />
+          <FaMoon className='cursor-pointer z-20 mt-4' id='moon' onClick={handleChangeTheme} />
+          <HiOutlineSun className='cursor-pointer z-20 mt-4' id='sun' onClick={handleChangeTheme} />
           <FaBars
             id='bars' 
-            className='cursor-pointer text-xl z-60 sm:hidden' 
+            className='cursor-pointer text-xl z-20 sm:hidden mt-4' 
             onClick={() => setOpen(!open)}  
           />
           <FaX
             id='xMark'
-            className='cursor-pointer z-60 sm:hidden' 
+            className='cursor-pointer z-20 sm:hidden mt-4' 
             onClick={() => setOpen(!open)} 
           />          
         </div>
-        <div className='hidden sm:block' >
-          <ul className='flex flex-row gap-2 sm:gap-6 font-bold'>
-            <li className='cursor-pointer'><a href='#about'>Acerca de mi</a></li>
-            <li className='cursor-pointer'><a href='#service'>Servicios</a></li>
-            <li className='cursor-pointer'><a href='#works'>Trabajos</a></li>
-            <li className='cursor-pointer'><a href='#formation'>Formación</a></li>
-            <li className='cursor-pointer'><a href='#contact'>Contacto</a></li>
-          </ul>
-        </div>         
+        <nav className='flex justify-between sm:hidden bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 z-10'></nav>
           <div className={`${open ? 'w-2/3' : 'w-0' } bg-slate-600 min-h-screen fixed top-14 left-0 sm:hidden transition-all duration-300`}>        
-            <ul className={`${!open && 'hidden'} flex flex-col gap-2 sm:hidden font-semibold text-2xl text-center text-white py-8`}>
+            <ul className={`${!open && 'hidden'} sm:hidden [&>li>a]:px-4 [&>li>a]:transition-colors [&>li>a]:duration-500 font-semibold text-2xl text-center text-white py-8`}>
               <li 
                 className='py-3 mb-2 cursor-pointer  hover:text-slate-300'
                 onClick={() => setOpen(false)}
@@ -124,19 +116,19 @@ const Header = () => {
                 onClick={() => setOpen(false)}><a href='#contact'>Contacto</a></li>
             </ul>            
           </div>
-      </nav>
+      
       <div
-    id='menu-backdrop'
-    class={`
-      absolute bg-black/50 dark:bg-slate-200/50 backdrop-blur-lg rounded
-      translate-x-[var(--left)] translate-y-[var(--top)]
-      left-0 top-0
-      w-[var(--width)] h-7
-      transition-all duration-00
-      ease-in-out opacity-0 
-    `}
-  >
-  </div>
+        id='menu-backdrop'
+        className={`
+          absolute bg-black/50 dark:bg-slate-200/50 backdrop-blur-lg rounded
+          translate-x-[var(--left)] translate-y-[var(--top)]
+          left-0 top-0
+          w-[var(--width)] h-7
+          transition-all duration-500
+          ease-in-out 
+        `}
+      >
+      </div>
     </header>    
   )
 

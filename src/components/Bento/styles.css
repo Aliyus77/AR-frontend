@@ -1,0 +1,81 @@
+.container {
+  max-width: 1528px;
+  min-height: 100vh;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 25vh;
+  gap: 2rem;
+  margin: auto;
+  align-content: center
+}
+.about {
+  background: rgb(0, 166, 255);
+  border: 2px solid black;
+  border-radius: 6px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  display: grid;
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.service {
+  background: rgb(10, 81, 119);
+  border: 2px solid black;
+  border-radius: 6px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+    
+  display: grid;
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.projects {
+  background: rgb(94, 115, 127);
+  border: 2px solid black;
+  border-radius: 6px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+    
+  display: grid;
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.formation {
+  background: rgb(134, 227, 191);
+  border: 2px solid black;
+  border-radius: 6px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+    
+  display: grid;
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.contact {
+  background: rgb(121, 225, 131);
+  border: 2px solid black;
+  border-radius: 6px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+    
+  display: grid;
+  align-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
