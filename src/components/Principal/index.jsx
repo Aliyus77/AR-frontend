@@ -9,7 +9,7 @@ import Contact from '../Contact'
 
 const PpalContent = () => {
   return (
-    <div className='bg-slate-200 dark:bg-slate-800' >
+    <div className='bg-slate-300 dark:bg-slate-800' >
       <Bento />
       <About />
       <Service />

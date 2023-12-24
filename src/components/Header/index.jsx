@@ -3,32 +3,28 @@ import React from 'react'
 import { FaMoon, FaBars, FaX } from "react-icons/fa6";
 import { HiOutlineSun } from "react-icons/hi2";
 
-const listItem = document.querySelectorAll('#landing-header li')
-const menuBackDrop = document.querySelector('#menu-backdrop')
 
-listItem.forEach((item) => {
-  item.addEventListener('mouseenter', () => {
-    const { left, top, width, height } = item.getBoundingClientRect()
-
-    menuBackDrop.style.setProperty('--left', `${left}px`)
-    menuBackDrop.style.setProperty('--top', `${top}px`)
-    menuBackDrop.style.setProperty('--width', `${width}px`)
-    menuBackDrop.style.setProperty('--height', `${height}px`)
-    menuBackDrop.style.opacity = '1'
-    menuBackDrop.style.visibility = 'visible'
-  })
-  item.addEventListener('mouseleave', () => {
-    menuBackDrop.style.opacity = '0'
-    menuBackDrop.style.visibility = 'hidden'
-  })
-})
 
 const Header = () => {
-  const [theme, setTheme] = useState('light')
+
+  // DARK MODE
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'light';
+  });
+
   const handleChangeTheme = () => {
-    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light')
-  }
-  const [open, setOpen] = useState(false)
+    setTheme((prevTheme) => {
+      const newTheme = prevTheme === 'light' ? 'dark' : 'light';
+      localStorage.setItem('theme', newTheme);
+      return newTheme;
+    });
+  };
+  
+  // const [theme, setTheme] = useState('light')
+  // const handleChangeTheme = () => {
+  //   setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light')
+  // }
+  // const [open, setOpen] = useState(false)
   
   // AÑADIR CLASE AL HTML PARA MODO NOCHE
 
@@ -76,8 +72,27 @@ const Header = () => {
     }
   })
 
+  useEffect(() => {
+    const element = document.querySelector('.go-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > window.innerHeight) {
+        element.classList.add('fixed');
+        element.classList.remove('hidden');
+      } else {
+        element.classList.remove('fixed');
+        element.classList.add('hidden');
+      }
+    });
+  }, []);
+
   return (
     <header id='landing-header' className='fixed z-10'> 
+      <div className='container go-to-top hidden'>
+        <button className='fixed bottom-10 right-7'>
+          <a href="#bento">subir</a>
+        </button>
+      </div>
       <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm z-40`}>
       </div>     
       
