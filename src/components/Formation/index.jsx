@@ -3,11 +3,16 @@ import formationData from './../../../data/formation.json';
 
 const Formation = () => {
   return (
-    <section id='formation' className='flex w-8/12 sm:w-10/12 m-auto pt-20 pb-5 h-auto flex-col'>
+    <section id='formation' className='flex cover w-8/12 sm:w-10/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
-        <h2 className='font-semibold text-2xl pb-8 flex justify-center'>Capacitación</h2>
+        <h2 className='font-semibold text-2xl pb-8 flex justify-center'>
+          Capacitación
+        </h2>
+        <div className=''>
+          <img className='m-auto mb-10' src='https://drive.google.com/uc?id=1pj-CjLXL9ZF7EBvpHnck8aK8kHYzShK5' alt='logos' />
+        </div>
       </div >
-      <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8 '>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 '>
         {formationData.map((formation, index) => (
           <div key={index} className='flex flex-col justify-between'>
             <div className='dark:text-slate-300 flex flex-col h-auto pb-8 gap-3 transition-transform transform hover:scale-150 duration-500'>
