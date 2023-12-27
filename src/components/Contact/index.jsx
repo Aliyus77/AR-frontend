@@ -1,10 +1,11 @@
 import React from 'react'
+import './styles.css'
 
 const Contact = () => {
   return (
     <form id='contact' action='https://formsubmit.co/93ca0ec9c269e308b9cbae3e0d000d34' method='POST' className='h-2/3 flex justify-center items-center pb-6 pt-20'>
-    <fieldset className='m-auto w-3/4 border border-gray-400 rounded-md pl-16 pr-16 pb-4 dark:text-slate-400'>
-      <legend className='text-xl mb-4 text-center'>¡Contáctame!</legend>
+    <fieldset className='box-shadow m-auto w-3/4 border border-gray-400 rounded-md pl-16 pr-16 pb-4 dark:text-slate-400'>
+      <legend className='text-2xl font-semibold mb-4 text-center'>¡Contáctame!</legend>
       <label className='text-lg flex flex-col mb-4'>
       Nombre:
         <input 

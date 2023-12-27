@@ -1,5 +1,5 @@
 .container {
-  max-width: 1528px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   min-height: 100vh;
   margin-top: 4rem;
   display: grid;
@@ -10,6 +10,7 @@
   align-content: center
 }
 .about {
+  background-image: url(../../assets/about.png);
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 1 / 2;
@@ -21,7 +22,14 @@
   font-size: 3rem;
   text-align: center;
 }
+.outlined-text {
+  -webkit-text-stroke: 1px black;
+}
+.text-shadow {
+  text-shadow:  2px 10px 12px black;
+}
 .service {
+  background-image: url(../../assets/service.png);
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 2 / 4;
@@ -34,6 +42,7 @@
   text-align: center;
 }
 .projects {
+  background-image: url(../../assets/proyects.png);
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 1 / 4;
@@ -46,6 +55,7 @@
   text-align: center;
 }
 .formation {
+  background-image: url(../../assets/formation.png);
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 3 / 4;
@@ -58,6 +68,7 @@
   text-align: center;
 }
 .contact {
+  background-image: url(../../assets/contact.png);
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 2 / 3;

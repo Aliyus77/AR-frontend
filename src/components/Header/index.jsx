@@ -88,7 +88,7 @@ const Header = () => {
 
   return (
     <header id='landing-header' className='fixed z-10'> 
-      <div className='container go-to-top hidden'>
+      <div className='go-to-top hidden'>
         <button className='fixed bottom-10 right-7'>
           <a href="#bento">subir</a>
         </button>
