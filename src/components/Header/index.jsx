@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import React from 'react'
-import { FaMoon, FaBars, FaXmark } from "react-icons/fa6";
+import { FaMoon, FaBars, FaXmark, FaAnglesUp } from "react-icons/fa6";
 import { HiOutlineSun } from "react-icons/hi2";
-
-
+import './styles.css'
 
 const Header = () => {
 
@@ -83,8 +82,8 @@ const Header = () => {
   return (
     <header id='landing-header' className='fixed z-10'> 
       <div className='go-to-top hidden'>
-        <button className='fixed bottom-10 right-7'>
-          <a href="#bento">subir</a>
+        <button className='fixed bottom-10 right-7 hidden sm:block'>
+          <a href="#top" className='arrow'>↑</a>
         </button>
       </div>
       

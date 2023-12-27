@@ -5,11 +5,13 @@ import Service from '../Service'
 import Works from '../Works'
 import Formation from '../Formation'
 import Contact from '../Contact'
+import Top from '../Top'
 
 
 const PpalContent = () => {
   return (
     <div className='bg-slate-300 dark:bg-slate-800' >
+      <Top />
       <Bento />
       <About />
       <Service />

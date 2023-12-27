@@ -1,0 +1,6 @@
+.arrow {
+  font-size: xx-large;
+  font-weight: 900;
+  -webkit-text-stroke: 4px black;
+  transition: 0.5s;
+}
