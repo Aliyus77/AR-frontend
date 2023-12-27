@@ -28,5 +28,11 @@
     "description": "Proyecto con HTML, CSS, JavaScrip, ASTRO y Tailwind; realizando una copia de la landing de Tesla",
     "imageSrc": "https://i.imgur.com/vXmtzQ7.png",
     "link": "https://tesla-landing-aliyus.netlify.app/"
+  },
+  {
+    "title": "VTEX e-commerce analyst and developer",
+    "description": "Proyecto realizando con VTEX, una tienda e-commerce. Empresas lideres de mercado, utilizan esta plataforma para ofrecer sus productos al mercado",
+    "imageSrc": "https://i.imgur.com/sbLr2KU.png",
+    "link": "https://www.youtube.com/watch?v=aDI55RxzonM"
   }
 ]
