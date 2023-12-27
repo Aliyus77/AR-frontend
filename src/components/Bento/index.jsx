@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Bento = () => {
   return (    
-    <div id='bento' className='container w-3/5'>
+    <div id='bento' className='container w-3/5 hidden lg:grid'>
       <motion.article 
         initial={{ y: -200, x: -200}}
         animate={{ y: 0, x: 0 }}

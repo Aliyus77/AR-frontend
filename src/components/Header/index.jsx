@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import React from 'react'
-import { FaMoon, FaBars, FaX } from "react-icons/fa6";
+import { FaMoon, FaBars, FaXmark } from "react-icons/fa6";
 import { HiOutlineSun } from "react-icons/hi2";
 
 
@@ -20,13 +20,6 @@ const Header = () => {
     });
   };
   
-  // const [theme, setTheme] = useState('light')
-  // const handleChangeTheme = () => {
-  //   setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light')
-  // }
-  // const [open, setOpen] = useState(false)
-  
-  // AÑADIR CLASE AL HTML PARA MODO NOCHE
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -56,22 +49,23 @@ const Header = () => {
 
   // TOGGLE DE ICONO MENU DESPLEGABLE
 
+  const [open, setOpen] = useState(false);
   useEffect(() => {
-    if (open === true) {
-      document.getElementById('xMark').classList.remove('hidden')      
+    const menuOpen = document.getElementById('xMark')
+    const menuClose = document.getElementById('bars')
+
+    if (open===false) {
+      menuOpen.classList.add('hidden')
+      menuClose.classList.remove('hidden')      
     } else {
-      document.getElementById('xMark').classList.add('hidden')
+      menuOpen.classList.remove('hidden')
+      menuClose.classList.add('hidden')
     }
   })
 
-  useEffect(() => {
-    if (open === false) {
-      document.getElementById('bars').classList.remove('hidden')      
-    } else {
-      document.getElementById('bars').classList.add('hidden')
-    }
-  })
 
+  // GO TO TOP
+  
   useEffect(() => {
     const element = document.querySelector('.go-to-top');
 
@@ -93,57 +87,49 @@ const Header = () => {
           <a href="#bento">subir</a>
         </button>
       </div>
-      <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm z-40`}>
-      </div>     
       
-        <div className='text-xl ml-4 flex gap-8 ' >
+      <div className={`${!open && 'hidden'} flex bg-slate-600/50 min-h-screen sm:hidden w-full fixed top-14 left-0 right-0 backdrop-blur-sm`}>
+      </div>
+        <div className='text-xl ml-4 flex gap-8' >
           <FaMoon className='cursor-pointer z-20 mt-4' id='moon' onClick={handleChangeTheme} />
-          <HiOutlineSun className='cursor-pointer z-20 mt-4' id='sun' onClick={handleChangeTheme} />
+          <HiOutlineSun className='cursor-pointer z-20 mt-4 text-2xl' id='sun' onClick={handleChangeTheme}/>
           <FaBars
             id='bars' 
-            className='cursor-pointer text-xl z-20 sm:hidden mt-4' 
+            className='cursor-pointer text-xl z-20 mt-4 sm:hidden' 
             onClick={() => setOpen(!open)}  
           />
-          <FaX
+          <FaXmark
             id='xMark'
-            className='cursor-pointer z-20 sm:hidden mt-4' 
+            className='cursor-pointer text-2xl z-20 mt-4 sm:hidden' 
             onClick={() => setOpen(!open)} 
-          />          
+          />        
         </div>
-        <nav className='flex justify-between sm:hidden bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 z-10'></nav>
-          <div className={`${open ? 'w-2/3' : 'w-0' } bg-slate-600 min-h-screen fixed top-14 left-0 sm:hidden transition-all duration-300`}>        
+
+        <nav className='flex justify-between sm:hidden bg-slate-400/60 dark:bg-slate-600/70 backdrop-blur-sm p-4 fixed w-full h-14 top-0 '></nav>
+          <div className={`${open ? 'w-2/3' : 'w-0' } bg-slate-600 min-h-screen fixed top-14 left-0 sm:hidden transition-all duration-300 z-20`}>
             <ul className={`${!open && 'hidden'} sm:hidden [&>li>a]:px-4 [&>li>a]:transition-colors [&>li>a]:duration-500 font-semibold text-2xl text-center text-white py-8`}>
               <li 
-                className='py-3 mb-2 cursor-pointer  hover:text-slate-300'
-                onClick={() => setOpen(false)}
-              ><a href='#about'>Acerca de mi</a></li>
+                className='py-3 mb-2'
+                onClick={() => setOpen(false)}>
+                <a className='cursor-pointer hover:text-slate-300' href='#about'>Acerca de mi</a></li>
               <li 
-                className='py-3 mb-2 cursor-pointer hover:text-slate-300'
-                onClick={() => setOpen(false)}><a href='#service'>Servicios</a></li>
+                className='py-3 mb-2'
+                onClick={() => setOpen(false)}>
+                <a className='cursor-pointer hover:text-slate-300' href='#service'>Servicios</a></li>
               <li 
-                className='py-3 mb-2 cursor-pointer hover:text-slate-300'
-                onClick={() => setOpen(false)}><a href='#works'>Trabajos</a></li>
+                className='py-3 mb-2'
+                onClick={() => setOpen(false)}>
+                <a className='cursor-pointer hover:text-slate-300' href='#works'>Trabajos</a></li>
               <li 
-                className='py-3 mb-2 cursor-pointer hover:text-slate-300'
-                onClick={() => setOpen(false)}><a href='#formation'>Formación</a></li>
+                className='py-3 mb-2'
+                onClick={() => setOpen(false)}>
+                <a className='cursor-pointer hover:text-slate-300' href='#formation'>Formación</a></li>
               <li 
-                className='py-3 mb-2 cursor-pointer hover:text-slate-300'
-                onClick={() => setOpen(false)}><a href='#contact'>Contacto</a></li>
+                className='py-3 mb-2'
+                onClick={() => setOpen(false)}>
+                <a className='cursor-pointer hover:text-slate-300' href='#contact'>Contacto</a></li>
             </ul>            
           </div>
-      
-      <div
-        id='menu-backdrop'
-        className={`
-          absolute bg-black/50 dark:bg-slate-200/50 backdrop-blur-lg rounded
-          translate-x-[var(--left)] translate-y-[var(--top)]
-          left-0 top-0
-          w-[var(--width)] h-7
-          transition-all duration-500
-          ease-in-out 
-        `}
-      >
-      </div>
     </header>    
   )
 

@@ -11,6 +11,7 @@
 }
 .about {
   background-image: url(../../assets/about.png);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 1 / 2;
@@ -30,6 +31,7 @@
 }
 .service {
   background-image: url(../../assets/service.png);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 2 / 4;
@@ -43,6 +45,7 @@
 }
 .projects {
   background-image: url(../../assets/proyects.png);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 1 / 4;
@@ -56,6 +59,7 @@
 }
 .formation {
   background-image: url(../../assets/formation.png);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 3 / 4;
@@ -69,6 +73,7 @@
 }
 .contact {
   background-image: url(../../assets/contact.png);
+  background-size: cover;
   border: 2px solid black;
   border-radius: 6px;
   grid-column: 2 / 3;
