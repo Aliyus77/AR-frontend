@@ -119,7 +119,7 @@ const Header = () => {
               <li 
                 className='py-3 mb-2'
                 onClick={() => setOpen(false)}>
-                <a className='cursor-pointer hover:text-slate-300' href='#works'>Trabajos</a></li>
+                <a className='cursor-pointer hover:text-slate-300' href='#works'>Proyectos</a></li>
               <li 
                 className='py-3 mb-2'
                 onClick={() => setOpen(false)}>

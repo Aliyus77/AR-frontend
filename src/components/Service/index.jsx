@@ -10,7 +10,7 @@ const Service = () => {
           <div key={index} className='lg:flex lg:text-start gap-3 dark:text-slate-300 text-center'>
             <img className='w-52 mx-auto' src={service.imageSrc} alt={service.title} />
             <aside className='dark:text-slate-300'>
-              <h3 className='font-semibold pb-2'>{service.title}</h3>
+              <h3 className='font-semibold pb-2 pt-2'>{service.title}</h3>
               <p>{service.description}</p>
             </aside>
           </div>

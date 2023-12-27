@@ -4,13 +4,13 @@ import './styles.css'
 
 const Works = () => {
   return (
-    <section id='works' className='flex w-8/12 m-auto pt-20 pb-5 h-auto flex-col'>
+    <section id='works' className='flex sm:w-8/12 w-11/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
-        <h2 className='font-semibold text-xl pb-8 flex justify-center'>Proyectos</h2>
+        <h2 className='font-semibold text-2xl pb-8 flex justify-center'>Proyectos</h2>
       </div >
       <div className='grid lg:grid-cols-2 gap-8 '>
         {worksData.map((work, index) => (
-          <div key={index} className='box-shadow border border-black bg-slate-400 dark:bg-slate-900 rounded-md m-auto h-full w-full flex flex-col justify-between'>
+          <div key={index} className='box-shadow border border-black rounded-md bg-slate-400 dark:bg-slate-900 m-auto h-full w-full flex flex-col justify-between'>
             <div className='flex flex-col h-full pb-8 gap-3 dark:text-slate-300 mt-8'>
               <img
                 className='w-60 h-48 m-auto'

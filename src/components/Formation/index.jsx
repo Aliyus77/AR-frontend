@@ -5,7 +5,7 @@ const Formation = () => {
   return (
     <section id='formation' className='flex w-8/12 sm:w-10/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
-        <h2 className='font-semibold text-xl pb-8 flex justify-center'>Capacitación</h2>
+        <h2 className='font-semibold text-2xl pb-8 flex justify-center'>Capacitación</h2>
       </div >
       <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8 '>
         {formationData.map((formation, index) => (
