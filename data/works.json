@@ -25,7 +25,7 @@
   },
   {
     "title": "Tesla Landing",
-    "description": "Proyecto con HTML, CSS, JavaScrip, ASTRO y Tailwind; realizando una copia de la landing de Tesla",
+    "description": "Proyecto con HTML, CSS, JavaScrip, ASTRO y Tailwind; realizando un clon de la landing de Tesla",
     "imageSrc": "https://i.imgur.com/vXmtzQ7.png",
     "link": "https://tesla-landing-aliyus.netlify.app/"
   },
