@@ -82,8 +82,11 @@ const Header = () => {
   return (
     <header id='landing-header' className='fixed z-10'> 
       <div className='go-to-top hidden'>
-        <button className='fixed bottom-10 right-7 hidden sm:block'>
-          <a href="#top" className='arrow'>↑</a>
+        <button 
+          className='fixed bottom-10 right-7 hidden sm:block'>
+          <a href="#top" className='arrow'>
+            <FaAnglesUp />
+          </a>
         </button>
       </div>
       

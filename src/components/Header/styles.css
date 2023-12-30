@@ -4,3 +4,7 @@
   -webkit-text-stroke: 4px black;
   transition: 0.5s;
 }
+
+.arrow:hover {
+  background-color: aqua;
+}
