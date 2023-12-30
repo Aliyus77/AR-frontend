@@ -9,7 +9,7 @@ const Bento = () => {
         initial={{ y: -200, x: -200}}
         animate={{ y: 0, x: 0 }}
         transition={{ duration: 0.8 }}
-        className='about text-white font-bold content-center bg-sky-200 dark:bg-sky-950'>
+        className='about text-white font-bold content-center bg-sky-200 dark:bg-sky-950 '>
         <a className='outlined-text text-shadow' href='#about'>Acerca de mi</a>
       </motion.article>
       <motion.article 
