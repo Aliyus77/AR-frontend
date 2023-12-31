@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {isLoading ? (
+      {true ? (
         <AppLoader />
       ) : (
         <div className="bg-white text-black dark:bg-black dark:text-white">
