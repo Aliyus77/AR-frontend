@@ -4,7 +4,7 @@ import TextLoader from '../TexLoader';
 
 function AppLoader() {
     return (
-      <>
+      <div className='overflow-hidden'>
         <TextLoader />
         <section className='section-loader'>
           <div className='loader'>
@@ -30,7 +30,7 @@ function AppLoader() {
             <span style={{'--i':20}}></span>
           </div>
         </section>
-      </>
+      </div>
     );
 }
 

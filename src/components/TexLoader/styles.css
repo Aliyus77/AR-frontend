@@ -6,7 +6,7 @@
 }
 .wrapper {
   width: 100vw;
-  min-height: 31vh;
+  min-height: 30vh;
   background: black;
   display: inline-flex;  
   justify-content: center;
