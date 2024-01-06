@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import PpalContent from './components/Principal';
 import Footer from './components/Footer';
-import { AppLoader } from './components/Loader';
+import { AppLoader } from './components/AppLoader';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -14,14 +14,6 @@ function App() {
 
     return () => clearTimeout(timeout);
   }, []);
-
-  const contentTimeout = setTimeout(() => {
-    setIsLoading(false);
-  }, 3000);
-
-  useEffect(() => {
-    return () => clearTimeout(contentTimeout);
-  }, [contentTimeout]);
 
   return (
     <>
