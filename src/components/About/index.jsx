@@ -16,17 +16,49 @@ const About = () => {
           </div>
           <div className='sm:w-3/12 w-11/12 m-auto mt-4'>
             <img
-              className='w-full right-3 rounded-full m-auto'
-              src="https://unavatar.io/ALIYUS_LGI" 
-              alt="Foto Personal" />
+              className='w-full right-3 rounded-full m-auto z-50'
+              src='https://unavatar.io/ALIYUS_LGI' 
+              alt='Foto Personal' />
           </div>
-        </div>
-        <div className='flex justify-between w-1/4 m-auto pt-8 text-xl'>
-          <a target='_blank' href='https://www.linkedin.com/in/angel-h-rodriguez-dev/'><FaLinkedin className='dark:text-slate-400'/></a>
-          <a target='_blank' href='https://www.facebook.com/aliyuslgi'><FaFacebook className='dark:text-slate-400' /></a>
-          <a target='_blank' href='https://www.instagram.com/aliyus.lgi/'><FaInstagram className='dark:text-slate-400' /></a>
-          <a target='_blank' href='https://twitter.com/ALIYUS_LGI'><FaSquareXTwitter className='dark:text-slate-400' /></a>
-        </div>
+        </div>        
+          <ul className='social-container'>
+            <li>
+              <a target='_blank' href='https://www.linkedin.com/in/angel-h-rodriguez-dev/'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><FaLinkedin className='linkedin-icon'/></span>
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://www.facebook.com/aliyuslgi'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><FaFacebook className='facebook-icon' /></span>                
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://www.instagram.com/aliyus.dev/'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><FaInstagram className='instagram-icon' /></span>                
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://twitter.com/ALIYUS_LGI'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><FaSquareXTwitter className='twitter-icon' /></span>                
+              </a>
+            </li>
+          </ul>        
       </div>
     </section>
   )

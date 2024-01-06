@@ -3,7 +3,7 @@ import './styles.css'
 
 const TextLoader = () => {
   return (
-    <div className='wrapper'>
+    <div className='wrapper z-50'>
       <div>
         <h1 className='static-text'>Hi, I'm</h1>
         <ul className='dynamic-text'>

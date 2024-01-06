@@ -4,7 +4,7 @@ import TextLoader from '../TexLoader';
 
 function AppLoader() {
     return (
-      <div className='overflow-hidden'>
+      <div className='overflow-hidden z-50'>
         <TextLoader />
         <section className='section-loader'>
           <div className='loader'>
