@@ -2,14 +2,19 @@ import React from 'react';
 import formationData from './../../../data/formation.json';
 
 const Formation = () => {
+
   return (
     <section id='formation' className='flex cover w-8/12 sm:w-10/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
         <h2 className='glitch font-semibold text-2xl pb-8 flex justify-center'>
           Capacitación
         </h2>
-        <div className=''>
-          <img className='m-auto mb-10' src='https://drive.google.com/uc?id=1pj-CjLXL9ZF7EBvpHnck8aK8kHYzShK5' alt='logos' />
+        <div className='h-auto'>
+          <img 
+            className='m-auto mb-10' 
+            src='https://i.imgur.com/SudALb4.png'
+            alt='logos'          
+          />
         </div>
       </div >
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 '>
