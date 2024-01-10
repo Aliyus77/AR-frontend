@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css'
-import TextLoader from '../TexLoader';
+import TextLoader from '../TextLoader';
 
 function AppLoader() {
     return (

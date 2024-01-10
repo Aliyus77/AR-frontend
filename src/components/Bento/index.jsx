@@ -9,9 +9,9 @@ import './styles.css'
 
 const Bento = () => {
   return (
-    <div className='main-container z-0'>
-      <h1 className='text-3xl text-center pt-8 pb-16 font-style text-red-900 dark:text-orange-300'>AliyusDev Portfolio</h1>  
-      <div id='bento' className='container w-3/5 hidden lg:grid'>
+    <div className='main-container z-0 hidden lg:grid'>
+      <h1 className='font-style text-4xl text-center pt-8 text-red-900 dark:text-orange-300 '>AliyusDev Portfolio</h1>  
+      <div id='bento' className='container w-3/5 hidden lg:grid h-3/4'>
         <motion.article 
           initial={{ y: -100, x: -200}}
           animate={{ y: 0, x: 0}}
