@@ -6,7 +6,7 @@ const Works = () => {
   return (
     <section id='works' className='flex sm:w-8/12 w-11/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
-        <div className='font-semibold text-2xl pb-8 flex justify-center'>Proyectos</div>
+        <div className='font-style text-4xl text-center pt-8 text-red-900 dark:text-orange-300 pb-8'>Proyectos</div>
       </div >
       <div className='grid lg:grid-cols-2 gap-8 '>
         {worksData.map((work, index) => (

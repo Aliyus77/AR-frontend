@@ -6,7 +6,7 @@ const Formation = () => {
   return (
     <section id='formation' className='flex cover w-8/12 sm:w-10/12 m-auto pt-20 pb-5 h-auto flex-col'>
       <div className='dark:text-slate-300'>
-        <h2 className='glitch font-semibold text-2xl pb-8 flex justify-center'>
+        <h2 className='font-style text-4xl text-center pt-8 text-red-900 dark:text-orange-300 pb-8'>
           Capacitación
         </h2>
         <div className='h-auto'>
