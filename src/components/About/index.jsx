@@ -10,8 +10,8 @@ const About = () => {
           <div className=' pb-2 sm:w-3/5 ml-6 sm:ml-40 mr-5 dark:text-slate-300'>
             <h2 className='text-2xl font-semibold text-center sm:text-end pb-4 dark:text-slate-300' >Acerca de mi</h2>
             <h3 className='text-lg text-center sm:text-end font-semibold pb-2' >Bienvenido a mi portfolio personal</h3>
-            <h2 className='font-medium text-sm pb-4 text-red-900 dark:text-orange-300'>+1 ReactJS Frontend - VTEX dev & analyst</h2>
-            <article className='ml-14' >
+            <h2 className='font-medium text-sm text-center sm:text-end pb-4 text-red-900 dark:text-orange-300'>+1 ReactJS Frontend - VTEX dev & analyst</h2>
+            <article className='text-center sm:text-end sm:ml-14' >
               <p>Me llamo Angel, nací y vivo en en Campana.</p>
               <p>Soy apasionado por la programación y estar siempre actualizado para ofrecer la mejor experiencia al usuario</p>
               <p>Me gustan los animales (tengo 5 perros y 3 gatos) y compartir bellos momentos con mi familia.</p>
